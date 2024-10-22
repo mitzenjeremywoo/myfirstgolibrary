@@ -4,10 +4,14 @@ import (
 	"fmt"
 )
 
-func add(x int, y int) int {
+func Add(x int, y int) int {
+	return x + y
+}
+
+func Minus(x int, y int) int {
 	return x + y
 }
 
 func main() {
-	fmt.Println(add(20, 10))
+	fmt.Println(Add(20, 10))
 }
