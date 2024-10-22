@@ -1,8 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
+package math
 
 func Add(x int, y int) int {
 	return x + y
@@ -10,8 +6,4 @@ func Add(x int, y int) int {
 
 func Minus(x int, y int) int {
 	return x + y
-}
-
-func main() {
-	fmt.Println(Add(20, 10))
 }
