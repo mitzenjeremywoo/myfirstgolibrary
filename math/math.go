@@ -5,5 +5,9 @@ func Add(x int, y int) int {
 }
 
 func Minus(x int, y int) int {
-	return x + y
+	return x - y
+}
+
+func Divide(x int, y int) int {
+	return x / y
 }
